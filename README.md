@@ -1,4 +1,5 @@
 # 66-Days-of-Data
+[Kaggle Mirco-Courses](https://www.kaggle.com/learn/overview)
 
 ## Day 1:
 
@@ -6,8 +7,8 @@ Downloaded some weather and energy data I had never seen before. Rather than doi
 
 Completed Python, Pandas, Data Cleaning, & Data Visualization courses in Kaggle (some of these courses were completed a couple days before I decided to do the 66 days of data, so I am just adding them to day 1)
 
-Read through a comprehensive EDA notebook in kaggle that I plan to pursue on a later date:
-https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python
+Read through a [comprehensive EDA notebook](https://www.kaggle.com/pmarcelino/comprehensive-data-exploration-with-python) in kaggle that I plan to pursue on a later date:
+
 
 Thoughts:
 -With Kaggle and all these online resources, it is easy to find a data set, look at it, do some computation, then move onto the next one. This is not realistic - if I were working on a problem I would be using the same dataset every single data, thinking about how to enhance that data set and testing out many different models on the same dataset. 
@@ -35,7 +36,7 @@ I successfully did nothing - off to a great start!!! I was in a car for two days
 Thoughts:
 -While driving to the Florida Keys there was an accident, and Google Maps estimated that I would get to my destination a 12:20. However, I arrived around 1:30. To give some context, the drive would have been around 2 hours without traffic. How could Google Maps have done such a terrible job at predicting this specific drive? 
 
-On the way back there was no traffic and I got back within 1 minute of the initial arrival time. That's pretty damn good prediction for a 2 hour drive. This illustrates two things: Google Maps is great at predicting common historical trends - most drives (which are accident free) will be historically similar. The average time it takes to get from A to B may be predicted from historical data. However, Google Maps is terribly equipped to deal with outliers like the one I experienced. The arrival time is basically guaranteed to be innacurate when an accident occurs - something that is really hard to take into account/assign a quantitative value to. Using expected value doesn't make sense in this case imagine it takes 5 mins to get somewhere to get somewhere without and accident and 55 mins to get to that place with an accident, estimating 30 mins on average does not make sense. This is basically guaranteed to almost always be wrong!
+On the way back there was no traffic and I got back within 1 minute of the initial arrival time. That's pretty damn good prediction for a 2 hour drive. This illustrates two things: Google Maps is great at predicting common historical trends - most drives (which are accident free) will be historically similar. The average time it takes to get from A to B may be predicted from historical data. However, Google Maps is terribly equipped to deal with outliers like the one I experienced. The arrival time is basically guaranteed to be innacurate when an accident occurs - something that is really hard to take into account/assign a quantitative value to. Using expected value doesn't make sense in this case imagine it takes 5 mins to get somewhere to get somewhere without and accident and 55 mins to get to that place with an accident, estimating 30 mins on average does not make sense. This is basically guaranteed to almost always be wrong! Furthermore, the mean is not robust to outliers, and in this case accidents will affect the expected value by a large margin.
 
 Accidents must have enough variability to make prediction very hard. I would have guessed that the time it takes to remove the accident from the highway and the time people spend looking as they pass the accident follow some sort distribution that can be historically estimated, similar to how arrival may be estimated. It is pretty clear, however, that Google struggles to estimate the time added due to an accident. The estimated arrival time on maps would increase very slowly, only a minute or two at a time. It would just do this consistently over time and dynamically update. I would argue, if they knew how to truly estimate the timing impact of an accident, then they would have one large update to account for the difference. (in my case, the estimated time should have gone from 12:20 to 1:30 in one jump rather than many jumps of small changes)
 
@@ -52,7 +53,15 @@ I completed the Kaggle Introduction to SQL micro-course. I had some previous exp
 Thoughts:
 -Reading and understanding the theory behind certain models and concepts is very important. However, I like to play with things on my own... I would prefer to have a dataset and have a faint idea of what I am doing and then change inputs, and see how my outputs change. To play around one needs to have the right tools! In the Data Science context that would mean and familiarity and understanding of databases and design, a language like Python (or R) to interact with the pulled data, and Linux to access the database that is on a cloud (or maybe remote) server. The point is something like Linux, which might seem unecessary for someone doing datascience, might actually be integral to a part of the process. So you have to learn these things.
 
+## Day 6
 
+I completed the Advanced SQL micro-course, spent some time doing 3 problems on [StrataScratch](https://www.stratascratch.com/). I also watched some videos from [Data Science Jay](https://www.youtube.com/c/DataScienceJay/videos) that went through mock interviews/problem solving. 
+
+Thoughts:
+-Maybe the material is just fresh, but i was able to solve all of the problems I attempted with relative ease. I expected them to be harder; to be fair, I realize I should be more comfortable with datetimes and passing inputs into aggregate and analytical functions, but that will come with practice. 
+
+ToDo:
+-Write Anki notecards based on the information that I have learned so far. The best way to continue to learn and practice SQL is to write queries, struggle, do things wrong, see how others performed the task, understand why their approach was better, then insert that information into Anki. Using an SRS system for practice like this will probably be useful (I assume) and help internalize that approaching certain problems in a certain way (e.g. I realize can use a left join here to find the missing values between these tables). 
 
 
 
