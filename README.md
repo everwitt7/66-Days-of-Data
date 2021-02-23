@@ -63,6 +63,17 @@ Thoughts:
 ToDo:
 -Write Anki notecards based on the information that I have learned so far. The best way to continue to learn and practice SQL is to write queries, struggle, do things wrong, see how others performed the task, understand why their approach was better, then insert that information into Anki. Using an SRS system for practice like this will probably be useful (I assume) and help internalize that approaching certain problems in a certain way (e.g. I realize can use a left join here to find the missing values between these tables). 
 
+## Day 7, 8
+
+I spent a majority of my time working on a baseball analytics project. Being able to write clean, well documented code is still important (and thinking through the structure of your code).
+
+## Day 9
+
+I went through some example [videos](https://www.youtube.com/watch?v=TYHWv1vT0Pk) of manipulating and extracting dates in SQL. It's rather important because month, year, and year-month timing stratification is incredibly common.
+
+## Day 10
+
+
 
 
 
