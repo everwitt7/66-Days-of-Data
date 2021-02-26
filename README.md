@@ -73,7 +73,13 @@ I went through some example [videos](https://www.youtube.com/watch?v=TYHWv1vT0Pk
 
 ## Day 10
 
+Created SQL cards for Anki. Now this won't just be a 66 day thing but an everyday thing.
 
+## Day 11, 12
+
+Spent time working on a baseball analytics project again. Nothing crazy, but lots of coding - fixing bugs and creating new ones. 
+
+## Day 13
 
 
 
