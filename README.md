@@ -81,6 +81,11 @@ Spent time working on a baseball analytics project again. Nothing crazy, but lot
 
 ## Day 13
 
+Created a script that goes through a local mac's Messages app, queries the Messages DB, finds messages that I sent to myself after a certain date, removes duplicates, and dumps the texts into a .txt file... Much easier to decode and organize my messages in a .txt file rather than the messages app (try scrolling up for a month)
+
+[Messages App](https://github.com/everwitt7/Messages)
+
+## Day 14
 
 
 
