@@ -85,8 +85,17 @@ Created a script that goes through a local mac's Messages app, queries the Messa
 
 [Messages App](https://github.com/everwitt7/Messages)
 
-## Day 14
+## Day 14, 15, 16
 
+StrataScratch and LeetCode problems (they seem easy compared to what I remember!). Also putting questions and concepts from these practice questions into Anki, so hopefully I can recall and generalize this information in the future more easily.
+
+## Day 17, 18
+
+Went through Kaggle Microcourse on Intro and Intermediate ML to review concepts
+
+## Day 19
+
+More SQL interview prep today
 
 
 
